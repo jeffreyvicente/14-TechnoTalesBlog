@@ -1,0 +1,25 @@
+{
+  "name": "14-technotalesblog",
+  "version": "1.0.0",
+  "description": "Module 14 Challenge | Model-View-Controller (MVC) Challenge: Tech Blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffreyvicente/14-TechnoTalesBlog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeffreyvicente/14-TechnoTalesBlog/issues"
+  },
+  "homepage": "https://github.com/jeffreyvicente/14-TechnoTalesBlog#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
+  }
+}
