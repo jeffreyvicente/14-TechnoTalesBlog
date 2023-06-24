@@ -7,3 +7,4 @@ class Post extends Model {}
 Post.init();
 
 module.exports = Post;
+    
