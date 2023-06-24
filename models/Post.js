@@ -30,9 +30,9 @@ Post.init(
             type: DataTypes.INTEGER,
             references: {
                 model: 'user',
-                key: 'id',
-            },
-        },
+                key: 'id'
+            }
+        }
     },
     {
         sequelize,
@@ -40,7 +40,7 @@ Post.init(
         freezeTableName: true,
         underscored: true,
         modelName: 'project',
-    },
+    }
 );
 
 module.exports = Post;
