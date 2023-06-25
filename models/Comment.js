@@ -1,4 +1,4 @@
-const {Model, DataTypes} = require('sequelize');
+const {Model, DataTypes} =  require('sequelize');
 
 const sequelize = require('../config/connection');
 
@@ -10,9 +10,9 @@ Comment.init(
             type: DataTypes.INTEGER,
             allowNull: false,
             primaryKey: true,
-            autoIncrement: true.valueOf,
+            autoIncrement: true,
         },
-        comment_body: {
+        com_body: {
             type: DataTypes.TEXT,
     
         },
@@ -37,7 +37,7 @@ Comment.init(
         timestamps: false,
         freezeTableName: true,
         underscored: true,
-        modelName: 'project',
+        modelName: 'comment',
     }
 
 );
