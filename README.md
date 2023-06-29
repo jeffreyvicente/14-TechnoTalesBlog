@@ -77,18 +77,9 @@ THEN I am able to view posts and comments but I am prompted to log in again befo
 
 ## Preview
 
-View backend demo hosted on [YouTube](https://www.youtube.com/watch?v=Sbzo1DV9F7Q)
-
-GET routes to return all categories, all products, and all tags.
-![alt text](/media/13-orm-homework-demo-01.gif)
+View live demo hosted on [Heroku](https://desolate-hollows-36679-dc548d9b90e0.herokuapp.com/)
 
 
-GET routes to return a single category, a single product, and a single tag.
-![alt text](/media/13-orm-homework-demo-02.gif)
-
-
-POST, PUT, and DELETE routes for categories being tested.
-![alt text](/media/13-orm-homework-demo-03.gif)
 
 
 ## Features
